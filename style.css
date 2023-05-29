@@ -113,3 +113,18 @@ div.bar-container {
 .premium:hover ~ .plan-benefits .progress {
   width: 100%;
 }
+
+/* #media quires */
+
+@media (max-width: 750px) {
+  main {
+    width: 80%;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .plan {
+    width: 100%;
+  }
+}
